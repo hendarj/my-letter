@@ -11,11 +11,7 @@ body {
     padding: 0;
 }
 
-/* .text-regular {
-    font-weight: 400;
-} */
-
- .font-semibold {
+.font-semibold {
     font-weight: 600;
 }
 
@@ -24,19 +20,17 @@ body {
     font-size: 15px;
     color: #98A2B3;
     text-decoration: none;
-    text-align: center;
 }
 
 .logo-header {
     display: block;
-    margin: 30px auto 43px auto;
+    margin: 30px auto 43px;
 }
 
 .header-text {
     font-weight: 600;
     font-size: 28px;
     color: #101828;
-    margin: 30px 0 10px 0;
     text-align: left;
 }
 
@@ -45,6 +39,10 @@ body {
     font-size: 15px;
     color: #667085;
     text-align: left;
+}
+
+.header-text + .body-text {
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 
@@ -61,7 +59,7 @@ body {
     margin-top: 5px;
 }
 
-.footer-cell {
+.container table tfoot > tr > td > table > tbody > tr > td.footer-cell {
     font-size: 15px;
     font-weight: 400;
     color: #667085;
@@ -88,10 +86,6 @@ td {
     margin: 12px auto;
     padding: 12px 20px 24px;
 }
-
-/* .table {
-    width: 100%;
-} */
 
 .table-right {
     text-align: right;
